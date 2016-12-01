@@ -1,0 +1,290 @@
+.azul {
+	color: #81b5fd;
+}
+
+.azul-oscuro {
+	color: #0c1e38;
+}
+
+/* --- HEADER --- */
+
+header {
+	background-image: url(../image/large.jpg);
+	width: 100%;
+	min-height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+
+.back-opacity {
+	background: rgba(73, 71, 83, 0.7);
+	height: 100%;
+	min-height: 500px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.logo-1 {
+	width: 200px;
+	height: auto;
+	padding-top: 10px;
+}
+
+
+li {
+	list-style: none;
+	float: left;
+	font-size: 20px;
+	padding: 0 20px;
+}
+
+li a {
+	font-style: none;
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #81b5fd;
+	cursor: pointer;
+}
+
+.big {
+	font-size: 50px;
+	text-align: center;
+	margin: 100px 0;
+}
+
+.prueba {
+	background-color: rgba(0, 118, 236, 0.5);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 17px;
+	padding: 20px 0;
+}
+
+.prueba-gratuita {
+	white-space: pre-line;
+}
+
+.prueba-gratuita1 {
+	font-size: 30px;
+}
+
+.pruebalo {
+	width: 150px;
+	height: 40px;
+	border: 1px solid white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+.pruebalo:hover {
+	color: #81b5fd;
+	background-color: white;
+	cursor: pointer;
+}
+
+/* --- SERVICIOS --- */
+.subtitulos{
+	font-family:sans-serif;
+	color:#81b5fd;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.marcos i {
+	border-radius: 100px;
+	height: 250px;
+	width: 250px;
+	padding: 50px;
+	border:2px solid silver;
+	margin-bottom: 100px;
+}
+
+i{
+	font-size: 50px;
+	color: #81b5fd;
+}
+.marcos{
+	margin-bottom: 20px;
+}
+.marcos h3{
+	margin-top: 100px;
+}
+
+/* --- SEPARADOR --- */
+
+.separador {
+	text-align: center;
+}
+
+.imagen-hr {
+	position: relative;
+	margin-bottom: -70px;
+}
+
+
+
+/* --- EJEMPLO --- */
+
+.video{
+	width: 100%;
+}
+.ejemplo img{
+	width: 70%;
+	height: 20px;
+	margin:0 auto;
+}
+.ejemplo .sepa{
+	width: 100px;
+	height: 50px;
+	margin-left: 35%;
+}
+.ejem{
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+/* --- LO QUIERO --- */
+
+.imagen-fondo {
+	background-image: url(../image/sec-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	text-align: left;
+	color: rgba(73, 71, 83, 0.7);
+	overflow: hidden;
+}
+
+.back-opacity2 {
+	background: rgba(43, 42, 43, 0.3);
+	height: 120%;
+	height: 450px;
+	width: 106%;
+	margin-left: -14px;
+}
+
+
+i.ic {
+	z-index: 1;
+	position: relative;
+	font-size: 30px;
+	background-color: #81b5fd;
+	padding: 10px;
+	border-radius: 100px;
+	text-align: center;
+	color: white;
+}
+
+.icon-tools {
+	top: 50px;
+}
+
+.icon-search {
+	top: 180px;
+}
+
+.marcogeneral{
+	position: absolute;
+	height: 100%;
+	margin-top: 50px;
+}
+
+
+li.item-loquiero {
+	float: none;
+	font-size: 14px;
+	list-style: disc;
+}
+
+.texto2 {
+	text-align: left;
+	margin-left: 30px;
+}
+
+/*
+jumbotron:fondo gris
+thumbnail:borde gris
+carousel-control:sombra sobre imagenes
+carousel-indicators: cambio de puntero a manito;
+tooltip-inner: fondo negro;
+panel:sombre borde inferior
+
+
+*/
+
+
+
+/* --- POR QUE USAR --- */
+#blanco{
+	padding-top: 8%;
+	padding-bottom: 8%;
+}
+#computador{
+	padding-top: 3%;
+	
+}
+
+#logui{
+	width:100%;
+}
+#porqueusar{
+	padding-top: 3%;
+}
+
+li.item-podras {
+	float: none;
+	font-size: 14px;
+	list-style: disc;
+}
+
+/* --- PRUEBA --- */
+.pruebagratuita {
+	background-color: #76A8ED;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 17px;
+	padding: 23px 0;
+	color: white;
+}
+
+
+
+/* --- FOOTER --- */
+footer {
+	background-color: #0c1e38;
+	color: white;
+	padding: 30px 0;
+}
+
+.espacio {
+	white-space: pre-line;
+}
+
+.iconredes {
+	font-size: 30px;
+	color: #81b5fd;
+	margin-left: 30px;
+
+}
+
+.iconredes:hover {
+	background-color: white;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.copyright {
+	margin-top: 20px;
+}
